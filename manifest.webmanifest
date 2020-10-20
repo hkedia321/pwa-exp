@@ -1,0 +1,38 @@
+{
+  "short_name": "RDS",
+  "name": "Real Dev Squad",
+  "description": "Community with awesome real world projects that make you an awesome dev",
+  "icons": [
+    {
+      "src": "/images/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#060d8c",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#060d8c",
+  "shortcuts": [
+    {
+      "name": "See my current ticket",
+      "short_name": "Ticket",
+      "description": "Allows you to see your most active ticket",
+      "url": "/current-ticket?source=pwa",
+      "icons": [{ "src": "/images/ticket.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "What's happening in the group?",
+      "short_name": "Happening",
+      "description": "What are the squad members upto",
+      "url": "/happening?source=pwa",
+      "icons": [{ "src": "/images/squad-logo.png", "sizes": "192x192" }]
+    }
+  ]
+}

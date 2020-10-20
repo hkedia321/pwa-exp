@@ -1,0 +1,41 @@
+html {
+  background: white;
+}
+
+body > * {
+  margin: 30px auto 0;
+  display: block;
+  font-size: 20px;
+}
+
+img {
+  width: 300px;
+}
+
+.my-install-btn {
+  width: 100px;
+  height: 40px;
+  background-color: #add3a3;
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
+/*
+Ultramarine
+#060D8C
+
+Razzmatazz
+#E20464
+
+Sprout
+#ADD3A3
+
+Fern
+#6CB470
+
+--navy-blue: #0D0786ff;
+--wild-blue-yonder: #B8BCDEff;
+--razzmatazz: #E80064ff;
+--black: #000000ff;
+--illuminating-emerald: #558E77ff;
+*/
